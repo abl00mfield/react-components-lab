@@ -6,7 +6,7 @@ const WeatherForecast = ({ forecast }) => {
     return (
         <div className="weather">
             <h2>{forecast.day}</h2>
-            <WeatherIcon img={forecast.img} alt={forecast.alt} />
+            <WeatherIcon img={forecast.img} alt={forecast.imgAlt} />
             <WeatherData conditions={forecast.conditions} time={forecast.time} />
            
         </div>
